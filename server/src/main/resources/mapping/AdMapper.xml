@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.AdMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.demo.dto.Ad">
+        <id column="id" property="id" />
+        <result column="ad_id" property="adId" />
+        <result column="name" property="name" />
+        <result column="status" property="status" />
+        <result column="type" property="type" />
+        <result column="destination_url" property="destinationUrl" />
+        <result column="description" property="description" />
+        <result column="text" property="text" />
+        <result column="banner_image" property="bannerImage" />
+        <result column="logo_image" property="logoImage" />
+        <result column="headline" property="headline" />
+        <result column="youtube_url" property="youtubeUrl" />
+        <result column="bid_modifier" property="bidModifier" />
+        <result column="adgroup_index" property="adgroupIndex" />
+    </resultMap>
+
+</mapper>
